@@ -13,7 +13,7 @@ class Month {
     class Year {
     constructor(name) {
     this.name = name;
-    this.months = [];
+    this.months = []; // array starts empty and stores months when added.
     }
     
     addMonth(month) {
@@ -31,7 +31,7 @@ class Month {
     }
     class Menu { // what drives the application and our choices
     constructor() {
-    this.years = [];
+    this.years = []; // array starts empty and stores years when added.
     this.selectedYear = null; // manage one year at a time
     }
     
